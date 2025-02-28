@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 80px; 
+}
+.navbar-nav .nav-link:hover {
+    background-color: bisque;
+}
+#home,#about, #skills, #experience, #certifications{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    
+}
+#contact{
+    height: auto;
+    width: 100%;
+   padding-left: 40px;
+}
+
+hr{
+    border: none;
+    background-color: black;
+}
+
+section{
+    margin-top: 200px !important;
+}
+table {
+    display: inline-block !important;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #343a40;
+    color: white;
+}
+.pro{
+    font-size: 28px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+#name, #email, #subject, #message {
+    width: 50%;
+    height: 3em;
+    font-size: 1.2em;
+    padding: 0.8em;
+    letter-spacing: 0.1em;
+    margin-bottom: 1em;
+}
+
+#sub {
+    width: 50%;
+    height: 4em;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+ 
